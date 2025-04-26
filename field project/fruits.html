@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fruits - Discount Sale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+        h1 {
+            color: #ff5722;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .discount {
+            color: #e91e63;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff9800;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin-top: 10px;
+            background: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fresh Fruits - Up to 50% Off!</h1>
+        <div class="grid">
+            <div class="card"><img src="image/apple.png" alt="Apples"><h2>Apples</h2><p class="discount">25% Off</p><p class="price">₹63.50/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/banana.png" alt="Bananas"><h2>Bananas</h2><p class="discount">30% Off</p><p class="price">₹29.00/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/product-1.png" alt="Oranges"><h2>Oranges</h2><p class="discount">20% Off</p><p class="price">₹52.80/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/grspes.png" alt="Grapes"><h2>Grapes</h2><p class="discount">35% Off</p><p class="price">₹43.00/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/magoes.png" alt="Mangoes"><h2>Mangoes</h2><p class="discount">40% Off</p><p class="price">₹94.50/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/pine.png" alt="Pineapples"><h2>Pineapples</h2><p class="discount">22% Off</p><p class="price">₹30.80/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/straw.png" alt="Strawberries"><h2>Strawberries</h2><p class="discount">50% Off</p><p class="price">₹80.00/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/promogrnate.png" alt="Pomegranates"><h2>Pomegranates</h2><p class="discount">28% Off</p><p class="price">₹74.20/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/cart-img-1.png" alt="watermelon"><h2>WaterMelon</h2><p class="discount">15% Off</p><p class="price">₹36.50/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/papaya.png" alt="papaya"><h2>Papaya</h2><p class="discount">28% Off</p><p class="price">₹40.20/kg</p><a href="#" class="btn">Add to Cart</a></div>
+            <div class="card"><img src="image/guva.png" alt="guva"><h2>Guava</h2><p class="discount">15% Off</p><p class="price">₹16.50/kg</p><a href="#" class="btn">Add to Cart</a></div>
+        
+        </div>
+    </div>
+</body>
+</html>
